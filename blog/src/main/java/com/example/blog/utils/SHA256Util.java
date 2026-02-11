@@ -1,4 +1,4 @@
-package com.fastcampus.boardserver.utils;
+package com.example.blog.utils;
 
 import lombok.extern.log4j.Log4j2;
 

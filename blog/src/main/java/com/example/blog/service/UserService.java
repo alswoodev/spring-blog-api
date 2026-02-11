@@ -1,4 +1,4 @@
-package com.fastcampus.boardserver.service;
+package com.example.blog.service;
 
 
 import com.example.blog.dto.UserDTO;

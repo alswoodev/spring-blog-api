@@ -1,14 +1,14 @@
-package com.fastcampus.boardserver.controller;
+package com.example.blog.controller;
 
 
 import com.example.blog.dto.UserDTO;
-import com.example.blog.dto.UserDeleteId;
-import com.example.blog.dto.UserLoginRequest;
-import com.example.blog.dto.UserUpdatePasswordRequest;
-import com.example.blog.dto.LoginResponse;
-import com.example.blog.dto.UserInfoResponse;
-import com.example.blog.dto.UserServiceImpl;
-import com.example.blog.dto.SessionUtil;
+import com.example.blog.dto.request.UserDeleteId;
+import com.example.blog.dto.request.UserLoginRequest;
+import com.example.blog.dto.request.UserUpdatePasswordRequest;
+import com.example.blog.dto.response.LoginResponse;
+import com.example.blog.dto.response.UserInfoResponse;
+import com.example.blog.service.UserServiceImpl;
+import com.example.blog.utils.SessionUtil;
 import jakarta.servlet.http.HttpSession;
 import lombok.extern.log4j.Log4j2;
 import org.springframework.beans.factory.annotation.Autowired;

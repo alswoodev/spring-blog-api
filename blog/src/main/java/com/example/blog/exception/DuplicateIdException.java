@@ -1,4 +1,4 @@
-package com.fastcampus.boardserver.exception;
+package com.example.blog.exception;
 
 public class DuplicateIdException extends RuntimeException {
   

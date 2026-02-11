@@ -1,4 +1,4 @@
-package com.fastcampus.boardserver.dto;
+package com.example.blog.dto;
 
 import lombok.Getter;
 import lombok.Setter;

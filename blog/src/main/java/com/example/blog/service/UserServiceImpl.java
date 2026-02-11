@@ -1,10 +1,10 @@
-package com.fastcampus.boardserver.service.impl;
+package com.example.blog.service;
 
 import com.example.blog.dto.UserDTO;
-import com.example.blog.dto.DuplicateIdException;
-import com.example.blog.dto.UserProfileMapper;
-import com.example.blog.dto.UserService;
-import com.example.blog.dto.SHA256Util;
+import com.example.blog.exception.DuplicateIdException;
+import com.example.blog.mapper.UserProfileMapper;
+import com.example.blog.service.UserService;
+import com.example.blog.utils.SHA256Util;
 import lombok.extern.log4j.Log4j2;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

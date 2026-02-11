@@ -1,4 +1,4 @@
-package com.fastcampus.boardserver.dto.request;
+package com.example.blog.dto.request;
 
 import lombok.Getter;
 import lombok.NonNull;

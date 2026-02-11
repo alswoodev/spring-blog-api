@@ -1,4 +1,4 @@
-package com.fastcampus.boardserver.utils;
+package com.example.blog.utils;
 
 
 import jakarta.servlet.http.HttpSession;

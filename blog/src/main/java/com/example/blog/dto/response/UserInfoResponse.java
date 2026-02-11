@@ -1,4 +1,4 @@
-package com.fastcampus.boardserver.dto.response;
+package com.example.blog.dto.response;
 
 import com.example.blog.dto.UserDTO;
 import lombok.AllArgsConstructor;
