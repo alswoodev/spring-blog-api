@@ -11,7 +11,7 @@ import org.springframework.core.io.support.PathMatchingResourcePatternResolver;
 import javax.sql.DataSource;
 
 @Configuration
-@MapperScan(basePackages = "com.fastcampus.boardserver")
+@MapperScan(basePackages = "com.example.blog")
 public class MySQLConfig {
 
     @Bean
