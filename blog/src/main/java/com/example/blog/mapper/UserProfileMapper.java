@@ -4,10 +4,8 @@ package com.example.blog.mapper;
 import com.example.blog.dto.UserDTO;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
-import org.springframework.stereotype.Component;
 
 @Mapper
-@Component
 public interface UserProfileMapper {
     public UserDTO getUserProfile(@Param("id") String id);
 
